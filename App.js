@@ -20,9 +20,9 @@ export default function App() {
       result = (bottles*11.88 - ((weight/10)*time))/(weight*0.6);
     }
     
-    // if (result <0){
-    //     return;
-    //   }
+     if (result <0){
+         return;
+     }
     
 
     setPromilles(result);
